@@ -7,8 +7,9 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 30px;
+  padding-right: 50px;
+  margin: 10px;
 }
 
 .two {
@@ -24,5 +25,10 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 0px;
-  margin-left: 0px;
+  padding-left: 30px;
+  padding-right:0;
+  padding-bottom: 25px;
+  padding-top:25px;
+  margin-left: 364px;
+  margin-top: 40px;
 }
