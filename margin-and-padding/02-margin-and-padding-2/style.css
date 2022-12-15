@@ -1,27 +1,62 @@
+* { 
+  box-sizing: border-box;
+
+}
 body {
   background: #eee;
   font-family: sans-serif;
 }
 
+<!-- This is the div class > 
 .card {
   width: 400px;
+  border: 5px solid white;
   background: #fff;
-  margin: 16px auto;
+} 
+
+.title-div{ 
+  margin-bottom:-25px;
+}
+
+.borders{ 
+  border: 10px solid white;
 }
 
 .title {
+  display:inline-block;
   background: #e3f4ff;
+  border:10px solid white; 
+  font-size: 20px;
+  height:60px;
+  width: 100%;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
 }
 
 .content {
+  height: 90px;
+  display:inline-block
+  padding: 15px 10px 15px 10px;
   background: #e3f4ff;
 }
 
 .button-container {
-  background: #e3f4ff;
+  width:100%;
+  display: inline-block;
+  background: #e3f4ff; 
+  /* padding-left: 45em;
+  padding-right: 35em;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  margin-top: -10px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 button {
+  display:block;
+  margin-left: 35%;
+  padding: 10px 30px 10px 30px;
   background: white;
   border: 1px solid #eee;
 }
